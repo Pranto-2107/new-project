@@ -1,0 +1,48 @@
+import { Testimonial } from '../types';
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: 't-rafi',
+    name: 'Rafi Hasan',
+    collegeOrSchool: 'Notre Dame College (HSC 26 Batch)',
+    exam: 'HSC Physics 1st & 2nd Paper',
+    resultBadge: 'Physics Pre-Test 34/100 ➔ Test Exam 89/100',
+    personaType: 'rafi',
+    avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=200&auto=format&fit=crop&q=80',
+    quote: "I used to freeze whenever a numerical problem popped up in class. 'Physics Zero to Hero' changed everything. The animated analogies and step-by-step CQ writing frameworks took away my fear completely!",
+    quoteBangla: 'কলেজে ফিজিক্সের ম্যাথ দেখলে ভয় পেতাম। জিরো টু হিরো কোর্সের ভিজ্যুয়াল ক্লাস আর প্রব্লেম সলভিং ট্রিকস আমার ফিজিক্সের ভীতি দূর করে আত্মবিশ্বাস এনে দিয়েছে!',
+  },
+  {
+    id: 't-nusrat',
+    name: 'Nusrat Jahan',
+    collegeOrSchool: 'Viqarunnisa Noon School & College',
+    exam: 'BUET Admission & HSC Board 2025',
+    resultBadge: 'BUET Merit 38th | Board GPA 5.00 Golden',
+    personaType: 'nusrat',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
+    quote: "Most online courses stay limited to textbook basics. The Engineering Admission Cracker course tested multi-concept problems and shortcut methods that gave me the edge to crack BUET top 50.",
+    quoteBangla: 'বুয়েট প্রিলিমিনারি ও রিটেনের জন্য কঠিন আর ট্রিকি ম্যাথ সমাধান করার মতো এমন ডেডিকেটেড কোর্স বাংলাদেশে সত্যিই বিরল। Tanvir ভাইয়ার শর্টকাট মেথড জাস্ট অতুলনীয়!',
+  },
+  {
+    id: 't-sakib',
+    name: 'Sakib Rahman',
+    collegeOrSchool: 'Chittagong College (HSC 25 Batch)',
+    exam: 'HSC Board Exam & Engineering Entrance',
+    resultBadge: 'Scholarship Recipient | Board A+ (94% in Physics)',
+    personaType: 'sakib',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80',
+    quote: "Coming from a middle-class family, paying ৳15,000+ for offline coaching in Dhaka was impossible. Here, for just ৳1,999, I got 10x better lectures, colored PDFs, and free doubt clearance!",
+    quoteBangla: 'ঢাকা গিয়ে লাখ টাকা খরচ করে প্রাইভেট পড়ার সামর্থ্য ছিল না। মাত্র ১৯99 টাকায় এত হাই-কোয়ালিটি লেকচার শিট আর ২৪/৭ ডাউট সলভ পাব ভাবিনি।',
+  },
+  {
+    id: 't-farida',
+    name: 'Farida Begum',
+    collegeOrSchool: 'Parent of Sadia (Holy Cross College student)',
+    exam: 'Parent & Guardian Verification',
+    resultBadge: 'Verified Guardian Review',
+    personaType: 'farida',
+    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80',
+    quote: "As a parent, I was hesitant about online coaching. But receiving weekly SMS reports on my daughter's attendance and test marks, plus knowing the mentors are all verified BUET engineers, gave me total peace of mind.",
+    quoteBangla: 'মেয়ের পড়াশোনা ঠিকমতো হচ্ছে কিনা তা নিয়ে চিন্তায় থাকতাম। প্রতি সপ্তাহে পরীক্ষার মার্কস আর অ্যাটেনডেন্সের এসএমএস পাই। বুয়েটিয়ান শিক্ষকদের আন্তরিকতা সত্যিই প্রশংসনীয়।',
+  },
+];

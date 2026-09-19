@@ -1,0 +1,6 @@
+{
+  "name": "Physics Zero to Hero",
+  "description": "EdTech platform for Bangladesh SSC and HSC Physics students. From confusion to confidence with structured courses, interactive formula visualizers, parent progress tracking, and 24/7 doubt solving.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
